@@ -37,18 +37,3 @@ func TestPartTwo(t *testing.T) {
 		t.Errorf("Result was incorrect, got: %d, want: %d.", result, expected)
 	}
 }
-// func TestExampleCross(t *testing.T) {
-// 	inputFilename := "example.txt"
-//
-// 	b, err := os.ReadFile(inputFilename)
-// 	if err != nil {
-// 		fmt.Println(err)
-// 	}
-//
-// 	inputStr := string(b)
-// 	result := RotateCountCross(inputStr)
-// 	expected := 6
-// 	if result != expected {
-// 		t.Errorf("Result was incorrect, got: %d, want: %d.", result, expected)
-// 	}
-// }
